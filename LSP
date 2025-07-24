@@ -1,0 +1,15 @@
+class Bird {
+    public void fly() {
+        System.out.println("Flying");
+    }
+}
+class Sparrow extends Bird {
+    public void fly() {
+        System.out.println("Sparrow flying");
+    }
+}
+class Ostrich extends Bird {
+    public void fly() {
+        throw new UnsupportedOperationException("Ostrich cannot fly");
+    }
+}
